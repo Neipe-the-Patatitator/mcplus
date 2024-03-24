@@ -1,0 +1,1 @@
+tellraw @a {"text": "mcplus succefully load","color": "#f1324a"}

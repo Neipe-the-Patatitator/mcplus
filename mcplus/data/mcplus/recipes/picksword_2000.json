@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["#y#", "b/b", " c "],
+    "key": {
+        "#": {
+            "item": "minecraft:heavy_core"
+        },
+        "y": {
+            "item": "minecraft:nether_star"
+        },
+        "b": {
+            "item": "minecraft:netherite_block"
+        },
+        "/": {
+            "item": "minecraft:breeze_rod"
+        },
+        "c": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "id": "minecraft:netherite_pickaxe",
+        "components": {
+            "custom_model_data": 1,
+            "minecraft:unbreakable": {
+                "show_in_tooltip": true
+            },
+            "minecraft:enchantments": {
+                "levels": {
+                    "minecraft:unbreaking": 10
+                },
+                "show_in_tooltip": false
+            },
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [1, 2, 3, 4],
+                        "name": "damage",
+                        "amount": 17,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "player.block_interaction_range",
+                        "uuid": [1, 2, 3, 449],
+                        "name": "Big!",
+                        "amount": 1000.0,
+                        "operation": "add_value",
+                        "slot": "hand"
+                    },
+                    {
+                        "type": "minecraft:generic.luck",
+                        "uuid": [1, 2, 3, 6],
+                        "name": "luck",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            "minecraft:custom_name": "[{'text':'picksword 2000','italic':false}]"
+        }
+    }
+}

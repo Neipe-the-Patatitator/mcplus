@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["###", "coc", "###"],
+    "key": {
+        "#": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "o": {
+            "item": "minecraft:egg"
+        },
+        "c": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "minecraft:evoker_spawn_egg"
+    }
+}
