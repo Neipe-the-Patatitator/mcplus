@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["XXX", "X X"],
+    "key": {
+        "X": {
+            "item": "minecraft:netherite_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:netherite_helmet",
+        "count": 1,
+        "components": {
+            "minecraft:enchantments": {
+                "levels": {
+                    "minecraft:protection": 11,
+                    "minecraft:unbreaking": 10,
+                    "minecraft:blast_protection": 5,
+                    "minecraft:fire_protection": 5,
+                    "minecraft:projectile_protection": 5
+                },
+                "show_in_tooltip": false
+            },
+            "custom_name": "[{'text':'Helmet 2000','italic':false, 'color':'white'}]",
+            "minecraft:enchantment_glint_override": false,
+            "minecraft:custom_model_data": 1,
+            "minecraft:lore": [
+                "[{'text':'real stats:','italic':false, 'color':'blue'}]",
+                "[{'text':'+14 Armor','italic':false, 'color':'blue'}]",
+                "[{'text':'+3 Armor Toughness','italic':false, 'color':'blue'}]",
+                "[{'text':'+1 Knockback Resistance','italic':false, 'color':'blue'}]",
+                "[{'text':'+ Blast, Fire, Projectile Resistance','italic':false, 'color':'blue'}]",
+                "[{'text':'avoid enchanting them with','italic':false}]",
+                "[{'text':'any kind of protection enchantment and unbreaking','italic':false}]"
+            ]
+        }
+    }
+}
