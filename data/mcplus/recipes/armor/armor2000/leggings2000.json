@@ -10,30 +10,35 @@
     "result": {
         "id": "minecraft:netherite_leggings",
         "count": 1,
-        "modifiers": [
-            {
-              "type": "minecraft:generic.armor",
-              "amount": 16,
-              "uuid": [1, 2, 3, 4],
-              "operation": "add_value",
-              "slot": "legs"
-            },
-            {
-              "type": "minecraft:generic.armor_toughness",
-              "amount": 6,
-              "uuid": [1, 2, 3, 4],
-              "operation": "add_value",
-              "slot": "legs"
-            },
-            {
-              "type": "minecraft:generic.knockback_resistance",
-              "amount": 2,
-              "uuid": [1, 2, 3, 4],
-              "operation": "add_value",
-              "slot": "legs"
-            }
-          ],
         "components": {
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "amount": 16,
+                        "uuid": [101, 102, 103, 104],
+                        "name": "eee",
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:generic.armor_toughness",
+                        "amount": 5,
+                        "uuid": [111, 112, 113, 114],
+                        "name": "eee",
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:generic.knockback_resistance",
+                        "amount": 0.2,
+                        "uuid": [121, 122, 123, 124],
+                        "name": "eee",
+                        "operation": "add_value",
+                        "slot": "legs"
+                    }
+                ]
+            },
             "minecraft:enchantments": {
                 "levels": {
                     "minecraft:unbreaking": 10,
@@ -43,14 +48,12 @@
                 },
                 "show_in_tooltip": false
             },
+            "minecraft:max_damage": 1001,
             "custom_name": "[{'text':'Leggings 2000','italic':false, 'color':'white'}]",
             "minecraft:enchantment_glint_override": false,
             "minecraft:custom_model_data": 1,
             "minecraft:lore": [
-                "[{'text':'real stats:','italic':false, 'color':'blue'}]",
-                "[{'text':'+16 Armor','italic':false, 'color':'blue'}]",
-                "[{'text':'+3 Armor Toughness','italic':false, 'color':'blue'}]",
-                "[{'text':'+1 Knockback Resistance','italic':false, 'color':'blue'}]",
+                "[{'text':'added stats:','italic':false, 'color':'blue'}]",
                 "[{'text':'+ Blast, Fire, Projectile Resistance','italic':false, 'color':'blue'}]",
                 "[{'text':'avoid enchanting them with','italic':false}]",
                 "[{'text':'any kind of protection enchantment and unbreaking','italic':false}]"
