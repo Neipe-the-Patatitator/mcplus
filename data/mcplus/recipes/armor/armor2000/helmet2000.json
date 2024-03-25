@@ -10,10 +10,32 @@
     "result": {
         "id": "minecraft:netherite_helmet",
         "count": 1,
+        "modifiers": [
+            {
+              "type": "minecraft:generic.armor",
+              "amount": 14,
+              "uuid": [1, 2, 3, 4],
+              "operation": "add_value",
+              "slot": "head"
+            },
+            {
+              "type": "minecraft:generic.armor_toughness",
+              "amount": 6,
+              "uuid": [1, 2, 3, 4],
+              "operation": "add_value",
+              "slot": "head"
+            },
+            {
+              "type": "minecraft:generic.knockback_resistance",
+              "amount": 2,
+              "uuid": [1, 2, 3, 4],
+              "operation": "add_value",
+              "slot": "head"
+            }
+          ],
         "components": {
             "minecraft:enchantments": {
                 "levels": {
-                    "minecraft:protection": 11,
                     "minecraft:unbreaking": 10,
                     "minecraft:blast_protection": 5,
                     "minecraft:fire_protection": 5,

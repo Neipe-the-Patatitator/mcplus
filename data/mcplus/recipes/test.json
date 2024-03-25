@@ -1,27 +1,31 @@
 {
     "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": ["###"],
+    "pattern": [
+      "///"
+    ],
     "key": {
-        "#": {
-            "item": "minecraft:copper_ingot"
-        }
+      "/": {
+        "item": "minecraft:iron_block"
+      }
     },
     "result": {
-        "id": "minecraft:iron_sword",
-        "components": {
-            "minecraft:attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "type": "minecraft:generic.attack_damage",
-                        "uuid": [1, 2, 3, 4],
-                        "name": "testr",
-                        "amount": 100,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ]
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:can_break": {
+          "blocks": "minecraft:bedrock"
+        },
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "minecraft:bedrock",
+              "speed": 9,
+              "correct_for_drops": true
             }
+          ],
+          "default_mining_speed": 16,
+          "damage_per_block": 1
         }
+      }
     }
-}
+  }
+  
