@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["#", "#", "/"],
+    "key": {
+        "#": {
+            "item": "minecraft:copper_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_sword",
+        "components": {
+            "custom_name": "[{'text':'Copper Sword','italic':false}]",
+            "custom_model_data": 1,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [12, 65416, 5146, 21],
+                        "name": "dmg",
+                        "amount": 5.5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:generic.attack_speed",
+                        "uuid": [654, 654, 654, 321],
+                        "name": "atck speed",
+                        "amount": 1.6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            }
+        }
+    }
+}

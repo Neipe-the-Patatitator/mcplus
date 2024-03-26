@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["###", "# #"],
+    "key": {
+        "#": {
+            "item": "minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "components": {
+            "custom_model_data": 1,
+            "custom_name": "[{'text':'Copper Helmet','italic':false}]",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [321, 5648, 21, 1],
+                        "name": "dmg",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "head"
+                    }
+                ]
+            }
+        }
+    }
+}

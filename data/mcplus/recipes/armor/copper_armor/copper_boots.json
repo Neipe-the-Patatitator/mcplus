@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["# #", "# #"],
+    "key": {
+        "#": {
+            "item": "minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:leather_boots",
+        "count": 1,
+        "components": {
+            "custom_model_data": 1,
+            "custom_name": "[{'text':'Copper Boots','italic':false}]",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [321, 5648, 2451, 1],
+                        "name": "dmg",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "head"
+                    }
+                ]
+            }
+        }
+    }
+}
