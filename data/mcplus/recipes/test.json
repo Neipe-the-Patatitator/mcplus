@@ -3,29 +3,31 @@
     "pattern": ["///"],
     "key": {
         "/": {
-            "item": "minecraft:iron_block"
+            "item": "minecraft:stick"
         }
     },
     "result": {
-        "id": "minecraft:diamond_chestplate",
+        "id": "minecraft:iron_sword",
         "components": {
-            "minecraft:custom_model_data": 1,
+            "custom_name": "[{'text':'Copper Sword','italic':false}]",
+            "custom_model_data": 1,
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "minecraft:generic.attack_damage",
-                        "uuid": [11, 11, 11, 11],
-                        "name": "eee",
-                        "amount": 100,
+                        "uuid": [12, 65416, 5146, 21],
+                        "name": "dmg",
+                        "amount": 5.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
-                        "type": "minecraft:tool",
-                        "name": "re",
-                        "uuid": [11, 161, 11, 141],
-                        "amount": 10,
-                        "operation": "add_value"
+                        "type": "minecraft:generic.attack_speed",
+                        "uuid": [156, 5, 3, 7],
+                        "name": "test",
+                        "amount": -0,
+                        "operation": "add_multiplied_total",
+                        "slot": "mainhand"
                     }
                 ]
             }
