@@ -7,7 +7,7 @@
         }
     },
     "result": {
-        "id": "minecraft:leather_chestplate",
+        "id": "minecraft:golden_chestplate",
         "count": 1,
         "components": {
             "custom_model_data": 1,
@@ -20,7 +20,7 @@
                         "name": "dmg",
                         "amount": 4,
                         "operation": "add_value",
-                        "slot": "head"
+                        "slot": "chest"
                     }
                 ]
             }

@@ -7,7 +7,7 @@
         }
     },
     "result": {
-        "id": "minecraft:leather_leggings",
+        "id": "minecraft:golden_leggings",
         "count": 1,
         "components": {
             "custom_model_data": 1,
@@ -16,11 +16,11 @@
                 "modifiers": [
                     {
                         "type": "minecraft:generic.armor",
-                        "uuid": [321, 5648, 2451, 1],
+                        "uuid": [321, 5648, 2451, 144],
                         "name": "dmg",
                         "amount": 2,
                         "operation": "add_value",
-                        "slot": "head"
+                        "slot": "legs"
                     }
                 ]
             }

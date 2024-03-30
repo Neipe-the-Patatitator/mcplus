@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["XX", " O", " O"],
+    "key": {
+        "X": { "item": "minecraft:emerald" },
+        "O": { "item": "minecraft:stick" }
+    },
+    "result": {
+        "id": "minecraft:diamond_hoe",
+        "components": {
+            "custom_model_data": 1,
+            "minecraft:max_damage": 1650,
+            "custom_name": "[{'text':'Emerald Hoe','italic':false,'color':white}]"
+        }
+    }
+}

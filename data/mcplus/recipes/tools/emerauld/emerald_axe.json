@@ -1,26 +1,24 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": ["#", "#", "/"],
+    "category": "equipment",
+    "pattern": ["XX", "XO", " O"],
     "key": {
-        "#": {
-            "item": "minecraft:copper_ingot"
-        },
-        "/": {
-            "item": "minecraft:stick"
-        }
+        "X": { "item": "minecraft:emerald" },
+        "O": { "item": "minecraft:stick" }
     },
     "result": {
-        "id": "minecraft:stone_sword",
+        "id": "minecraft:diamond_axe",
         "components": {
-            "custom_name": "[{'text':'Copper Sword','italic':false,'color':white}]",
+            "minecraft:max_damage": 1650,
             "custom_model_data": 1,
+            "custom_name": "[{'text':'Emerald Axe','italic':false,'color':white}]",
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "minecraft:generic.attack_damage",
                         "uuid": [12, 65416, 5146, 21],
                         "name": "dmg",
-                        "amount": 5.5,
+                        "amount": 10,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -28,7 +26,7 @@
                         "type": "minecraft:generic.attack_speed",
                         "uuid": [654, 654, 654, 321],
                         "name": "atck speed",
-                        "amount": -2,
+                        "amount": -3.11,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }

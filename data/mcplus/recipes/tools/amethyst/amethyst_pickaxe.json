@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["XXX", " O ", " O "],
+    "key": {
+        "X": { "item": "minecraft:amethyst_shard" },
+        "O": { "item": "minecraft:stick" }
+    },
+    "result": {
+        "id": "minecraft:iron_pickaxe",
+        "components": {
+            "custom_model_data": 3,
+            "custom_name": "[{'text':'Amethyst Pickaxe','italic':false}]"
+        }
+    }
+}

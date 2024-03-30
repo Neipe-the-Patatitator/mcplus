@@ -41,7 +41,6 @@
             },
             "minecraft:enchantments": {
                 "levels": {
-                    "minecraft:unbreaking": 10,
                     "minecraft:blast_protection": 5,
                     "minecraft:fire_protection": 5,
                     "minecraft:projectile_protection": 5

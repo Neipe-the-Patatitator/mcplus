@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["X", "O", "O"],
+    "key": {
+        "X": { "item": "minecraft:amethyst_shard" },
+        "O": { "item": "minecraft:stick" }
+    },
+    "result": {
+        "id": "minecraft:iron_shovel",
+        "components": {
+            "custom_model_data": 3,
+            "custom_name": "[{'text':'Amethyst Shovel','italic':false}]"
+        }
+    }
+}

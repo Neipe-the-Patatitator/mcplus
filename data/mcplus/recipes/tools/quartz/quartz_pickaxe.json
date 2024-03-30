@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["XXX", " O ", " O "],
+    "key": {
+        "X": { "item": "minecraft:quartz" },
+        "O": { "item": "minecraft:stick" }
+    },
+    "result": {
+        "id": "minecraft:iron_pickaxe",
+        "components": {
+            "custom_model_data": 4,
+            "custom_name": "[{'text':'Quartz Pickaxe','italic':false,'color':white}]"
+        }
+    }
+}

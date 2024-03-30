@@ -28,7 +28,7 @@
                         "type": "minecraft:generic.attack_speed",
                         "uuid": [654, 654, 654, 321],
                         "name": "atck speed",
-                        "amount": -1,
+                        "amount": -2.6,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }

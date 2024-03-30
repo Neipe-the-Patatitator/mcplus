@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["XX", " O", " O"],
+    "key": {
+        "X": { "item": "minecraft:amethyst_shard" },
+        "O": { "item": "minecraft:stick" }
+    },
+    "result": {
+        "id": "minecraft:iron_hoe",
+        "components": {
+            "custom_model_data": 3,
+            "custom_name": "[{'text':'Amethyst Hoe','italic':false}]"
+        }
+    }
+}

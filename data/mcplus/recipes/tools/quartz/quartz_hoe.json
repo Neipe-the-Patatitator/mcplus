@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["XX", " O", " O"],
+    "key": {
+        "X": { "item": "minecraft:quartz" },
+        "O": { "item": "minecraft:stick" }
+    },
+    "result": {
+        "id": "minecraft:iron_hoe",
+        "components": {
+            "custom_model_data": 4,
+            "custom_name": "[{'text':'Quartz Hoe','italic':false,'color':white}]"
+        }
+    }
+}
