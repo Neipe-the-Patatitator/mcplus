@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["x#x", "x x", "x x"],
+    "key": {
+        "x": {
+            "item": "minecraft:sugar_cane"
+        },
+        "#": {
+            "item": "minecraft:amethyst_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:golden_leggings",
+        "components": {
+            "custom_name": "[{'text':'Speed Leggings','italic':false, 'color':'white'}]",
+            "minecraft:custom_model_data": 2,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [46, 123, 5, 12],
+                        "name": "armor",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:generic.movement_speed",
+                        "uuid": [45, 40, 442, 117891],
+                        "name": "speed",
+                        "amount": 0.04,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    }
+                ]
+            }
+        }
+    }
+}
