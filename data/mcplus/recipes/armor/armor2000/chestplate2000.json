@@ -11,6 +11,11 @@
         "id": "minecraft:netherite_chestplate",
         "count": 1,
         "components": {
+            "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:2000",
+                "show_in_tooltip": false
+            },
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {

@@ -10,6 +10,11 @@
         "id": "minecraft:golden_boots",
         "count": 1,
         "components": {
+            "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:copper",
+                "show_in_tooltip": false
+            },
             "custom_model_data": 1,
             "custom_name": "[{'text':'Copper Boots','italic':false}]",
             "minecraft:attribute_modifiers": {

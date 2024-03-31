@@ -1,0 +1,7 @@
+{
+    "asset_id": "minecraft:2000",
+    "description": {
+        "translate": "2000 Armour Trim"
+    },
+    "template_item": "minecraft:air"
+}
