@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["#e#", "x x", "x x"],
+    "key": {
+        "x": {
+            "item": "minecraft:redstone"
+        },
+        "#": {
+            "item": "minecraft:piston"
+        },
+        "e": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:golden_leggings",
+        "components": {
+            "custom_name": "[{'text':'Builder Leggings','italic':false, 'color':'white'}]",
+            "minecraft:custom_model_data": 3,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [487, 7987, 45, 43],
+                        "name": "armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:player.block_interaction_range",
+                        "uuid": [861, 104, 4026, 404],
+                        "name": "reach",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:generic.movement_speed",
+                        "uuid": [45, 4440, 7282, 111],
+                        "name": "speed",
+                        "amount": 0.01,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [624, 4726, 46, 40],
+                        "name": "less damage",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    }
+                ]
+            }
+        }
+    }
+}

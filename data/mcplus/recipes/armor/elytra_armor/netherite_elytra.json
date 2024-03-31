@@ -19,7 +19,7 @@
     "result": {
         "id": "minecraft:elytra",
         "components": {
-            "custom_name": "[{'text':'netherite Elytra','italic':false, 'color':'white'}]",
+            "custom_name": "[{'text':'Netherite Elytra','italic':false, 'color':'white'}]",
             "minecraft:custom_model_data": 2,
             "minecraft:attribute_modifiers": {
                 "modifiers": [

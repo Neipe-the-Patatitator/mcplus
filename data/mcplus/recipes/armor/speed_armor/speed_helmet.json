@@ -13,7 +13,7 @@
     "result": {
         "id": "minecraft:golden_helmet",
         "components": {
-            "custom_name": "[{'text':'Speed helmet','italic':false, 'color':'white'}]",
+            "custom_name": "[{'text':'Speed Helmet','italic':false, 'color':'white'}]",
             "minecraft:custom_model_data": 2,
             "minecraft:attribute_modifiers": {
                 "modifiers": [

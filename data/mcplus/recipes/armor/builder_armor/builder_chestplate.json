@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["# #", "x0x", "xex"],
+    "key": {
+        "0": {
+            "item": "minecraft:breeze_rod"
+        },
+        "x": {
+            "item": "minecraft:redstone"
+        },
+        "#": {
+            "item": "minecraft:piston"
+        },
+        "e": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:golden_chestplate",
+        "components": {
+            "custom_name": "[{'text':'Builder Chestplate','italic':false, 'color':'white'}]",
+            "minecraft:custom_model_data": 3,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [4, 4, 4, 444],
+                        "name": "armor",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "minecraft:player.block_interaction_range",
+                        "uuid": [0, 10, 690, 0],
+                        "name": "reach",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "minecraft:generic.safe_fall_distance",
+                        "uuid": [1, 22, 222, 2222],
+                        "name": "fall",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [624, 472, 46, 99],
+                        "name": "less damage",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    }
+                ]
+            }
+        }
+    }
+}

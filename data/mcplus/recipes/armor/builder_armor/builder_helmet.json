@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": ["0e0", "x x"],
+    "key": {
+        "0": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "x": {
+            "item": "minecraft:redstone"
+        },
+        "e": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:golden_helmet",
+        "components": {
+            "custom_name": "[{'text':'Builder Helmet','italic':false, 'color':'white'}]",
+            "minecraft:custom_model_data": 3,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.armor",
+                        "uuid": [4, 4, 4, 4691],
+                        "name": "armor",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "head"
+                    },
+                    {
+                        "type": "minecraft:player.block_interaction_range",
+                        "uuid": [1947, 12, 12, 12],
+                        "name": "reach",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "head"
+                    },
+                    {
+                        "type": "minecraft:player.block_break_speed",
+                        "uuid": [122, 122, 11, 0],
+                        "name": "break speed",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "head"
+                    },
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [624, 499, 4786, 40],
+                        "name": "less damage",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "head"
+                    }
+                ]
+            }
+        }
+    }
+}
