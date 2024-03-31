@@ -38,7 +38,8 @@
                 "trims/models/armor/2000",
                 "trims/models/armor/2000_leggings",
                 "trims/models/armor/copper",
-                "trims/models/armor/copper_leggings"
+                "trims/models/armor/copper_leggings",
+                "trims/models/armor/diamond_elytra"
             ],
             "palette_key": "trims/color_palettes/trim_palette",
             "permutations": {

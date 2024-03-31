@@ -1,0 +1,7 @@
+{
+    "asset_id": "minecraft:diamond_elytra",
+    "description": {
+        "translate": "copper Armour Trim"
+    },
+    "template_item": "minecraft:elytra"
+}
